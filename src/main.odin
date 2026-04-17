@@ -1,7 +1,6 @@
 package main
 
-import "core:fmt"
-
-main :: proc() {
-	fmt.println("Hello")
+@(export)
+add :: proc(a: int, b: int) -> int {
+	return a + b
 }
