@@ -4,7 +4,7 @@
         {
             "label": "Build",
             "type": "shell",
-            "command": "odin build src -debug -out:build/debug.exe",
+            "command": "just build",
             "problemMatcher": "$odin",
             "presentation": {
                 "reveal": "silent",
