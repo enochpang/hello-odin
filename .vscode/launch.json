@@ -3,9 +3,9 @@
     "configurations": [
         {
             "name": "Debug",
-            "type": "cppvsdbg",
+            "type": "lldb-dap",
             "request": "launch",
-            "program": "${workspaceFolder}/build/hello.exe",
+            "program": "${workspaceFolder}/build/hello_debug.exe",
             "args": [],
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "Build",
