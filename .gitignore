@@ -1,2 +1,4 @@
 build/
-windows/
+
+input.txt
+output.txt

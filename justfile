@@ -10,3 +10,6 @@ release:
 
 check:
 	odin check src -debug -vet -strict-style
+
+filter-manager:
+	odin build src/filter_manager -out:build/filter_manager.exe
